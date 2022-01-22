@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <img id="qiu" src="../image/qiu.jpeg" onclick="fun();">
+    <img id="qiu2" src="../image/qiu.jpeg">
+    <script>
+        function fun(){
+            alert("被点了");
+            alert("又被点了");
+        }
+
+        function fun2(){
+            alert("点了");
+        }
+
+        var qiu2 = document.getElementById("qiu2");
+        qiu2.onclick = fun2;
+    </script>
+</body>
+</html>

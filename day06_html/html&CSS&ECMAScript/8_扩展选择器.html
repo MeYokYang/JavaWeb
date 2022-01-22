@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>扩展选择器</title>
+    <style>
+        div p{
+            color:red;
+        }
+        div>p{
+            border:1px solid;
+        }
+        input[type="text"]{
+            border:5px solid;
+
+        }
+        a:link{
+            color:pink;
+        }
+        a:hover{
+            color:green;
+        }
+        a:active{
+            color:yellow;
+        }
+        a:visited{
+            color:blue;
+        }
+
+    </style>
+</head>
+<body>
+<!--
+2.扩展选择器
+    *选择所有元素：
+        *语法：*{}
+    *并集选择器：
+        *选择器1,选择器2{}
+    *子选择器：筛选选择器1元素下的选择器2元素
+        *语法：选择器1 选择器2{}
+    *父选择器：筛选选择器2的父选择器1
+        *语法：选择器1>选择器2{}
+    *属性选择器：选择元素名称，属性名=属性值的元素
+        *语法：元素名称[属性名="属性值"]{}
+    *伪类选择器
+        *语法：
+            元素:状态{}
+        *如：<a>
+            *状态：
+                link：初始化的状态
+                visited：被访问过的状态
+                active：正在访问的状态
+                hover：鼠标悬浮状态
+-->
+
+    <div>
+        <p>船只</p>
+    </div>
+    <p>黑马程序员</p>
+    <div>aaa</div>
+    <input type="text">
+    <input type="password">
+    <br>
+    <a href="#">船只</a>
+</body>
+</html>

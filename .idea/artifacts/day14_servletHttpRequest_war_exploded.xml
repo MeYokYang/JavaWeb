@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="day14_servletHttpRequest:war exploded">
+    <output-path>$PROJECT_DIR$/day14_servletHttpRequest/target/day14_servletHttpRequest-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>day14_servletHttpRequest</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="day14_servletHttpRequest" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/day14_servletHttpRequest/target/day14_servletHttpRequest-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="day14_servletHttpRequest/web/Web" />
+    </root>
+  </artifact>
+</component>

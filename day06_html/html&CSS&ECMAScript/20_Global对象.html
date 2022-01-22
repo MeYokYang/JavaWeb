@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Global对象</title>
+
+    <script>
+        //encodeURIComponent和decodeURIComponent编码的字符更多
+        var str = "船只";
+        var encode = encodeURI(str);
+        document.write(encode+"<br>");
+        var s = decodeURI(encode);
+        document.write(s+"<br>");
+
+        var str1 = "123";
+        document.write(parseInt(str1)+"<br>");
+        var str2 = "123abc";
+        document.write(parseInt(str2)+"<br>");
+        var str3 = "abc123";
+        document.write(parseInt(str3)+"<br>");
+
+        var num = NaN;
+        document.write((num == NaN)+"<br>");
+        document.write(isNaN(num)+"<br>");
+
+        var jscode = "alert(123)";
+        eval(jscode);
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

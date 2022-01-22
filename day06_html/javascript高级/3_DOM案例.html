@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <img id="qiu" src="../image/qiu.jpeg">
+    <script>
+        var qiu = document.getElementById("qiu");
+        var flag = true;
+        qiu.onclick = function(){
+            if(flag){
+                qiu.src = "../image/nv.jpeg";
+                flag = false
+            }else{
+                qiu.src = "../image/qiu.jpeg";
+                flag = true;
+            }
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="day23_redis:war">
+    <output-path>$PROJECT_DIR$/day23_redis/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>day23_redis</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="day23_redis-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="day23_redis:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="day23_redis" />
+        <module name="day15_response" />
+        <module name="day14_servletHttpRequest" />
+        <module name="day14_test" />
+        <module name="day22_ajaxJson" />
+        <module name="day19_filterListener" />
+        <module name="day16_cookieSession" />
+        <module name="day13_tomcat" />
+        <module name="day17_case" />
+        <module name="day13_servlet" />
+        <module name="day17_elJstl" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="day13_servlet" target="1.8" />
+      <module name="day13_tomcat" target="1.8" />
+      <module name="day14_servletHttpRequest" target="1.8" />
+      <module name="day14_test" target="1.8" />
+      <module name="day15_response" target="1.8" />
+      <module name="day16_cookieSession" target="1.8" />
+      <module name="day17_case" target="1.8" />
+      <module name="day17_elJstl" target="1.8" />
+      <module name="day19_filterListener" target="1.8" />
+      <module name="day22_ajaxJson" target="1.8" />
+      <module name="day23_redis" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

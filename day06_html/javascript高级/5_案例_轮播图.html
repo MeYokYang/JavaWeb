@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+
+</head>
+<body>
+    <img id="img" src="../image/daotian.jpg" width="100%">
+    <script>
+        var number = 1;
+        function fun(){
+            var img = document.getElementById("img");
+            if(number % 3 == 0){
+                img.src = "../image/daotian.jpg";
+            }else if(number % 3 == 1){
+                img.src = "../image/nv.jpeg";
+            }else{
+                img.src = "../image/qiu.jpeg";
+            }
+            ++number;
+        }
+        setInterval(fun, 2000);
+    </script>
+</body>
+</html>

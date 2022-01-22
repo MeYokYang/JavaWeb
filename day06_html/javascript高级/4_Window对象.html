@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Window对象</title>
+
+</head>
+<body>
+<!--    <img id="image">
+        <script>
+        alert("警告框");
+
+        var flag = confirm("确认框");
+        if (flag){
+            image.src="../image/nv.jpeg";
+        }else{
+            image.src="../image/hai.jpeg";
+        }
+
+        var result = prompt("username");
+        alert(result);
+    </script>-->
+
+<!--    <input id="openBtn" type="button" value="打开窗口">
+    <input id="closeBtn" type="button" value="关闭已打开窗口">
+    <script>
+        var newWindow;
+        var openBtn = document.getElementById("openBtn");
+        openBtn.onclick = function(){
+            newWindow = open("https://www.baidu.com");
+        }
+        var openBtn = document.getElementById("closeBtn");
+        closeBtn.onclick = function(){
+            newWindow.close();
+        }
+    </script>-->
+
+    <script>
+        function fun(){
+            alert("BOOM~~");
+        }
+        var id1 = setTimeout(fun, 1000);
+        clearTimeout(id1);
+        var id2 = setInterval(fun, 5000);
+        clearInterval(id2);
+    </script>
+
+
+
+</body>
+</html>

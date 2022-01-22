@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb.iml" filepath="$PROJECT_DIR$/JavaWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day01_foundationStrengthening/day01_foundationStrengthening.iml" filepath="$PROJECT_DIR$/day01_foundationStrengthening/day01_foundationStrengthening.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04_jdbc/day04_jdbc.iml" filepath="$PROJECT_DIR$/day04_jdbc/day04_jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day05_dataSourceJDBCTemplate/day05_dataSourceJDBCTemplate.iml" filepath="$PROJECT_DIR$/day05_dataSourceJDBCTemplate/day05_dataSourceJDBCTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day06_html/day06_html.iml" filepath="$PROJECT_DIR$/day06_html/day06_html.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day12_xml/day12_xml.iml" filepath="$PROJECT_DIR$/day12_xml/day12_xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day13_servlet/day13_servlet.iml" filepath="$PROJECT_DIR$/day13_servlet/day13_servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day13_tomcat/day13_tomcat.iml" filepath="$PROJECT_DIR$/day13_tomcat/day13_tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day14_servletHttpRequest/day14_servletHttpRequest.iml" filepath="$PROJECT_DIR$/day14_servletHttpRequest/day14_servletHttpRequest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day14_test/day14_test.iml" filepath="$PROJECT_DIR$/day14_test/day14_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day15_response/day15_response.iml" filepath="$PROJECT_DIR$/day15_response/day15_response.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day16_cookieSession/day16_cookieSession.iml" filepath="$PROJECT_DIR$/day16_cookieSession/day16_cookieSession.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day17_case/day17_case.iml" filepath="$PROJECT_DIR$/day17_case/day17_case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day17_elJstl/day17_elJstl.iml" filepath="$PROJECT_DIR$/day17_elJstl/day17_elJstl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day19_filterListener/day19_filterListener.iml" filepath="$PROJECT_DIR$/day19_filterListener/day19_filterListener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day20_JQuery框架/day20_JQuery框架.iml" filepath="$PROJECT_DIR$/day20_JQuery框架/day20_JQuery框架.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day21_JQuery高级/day21_JQuery高级.iml" filepath="$PROJECT_DIR$/day21_JQuery高级/day21_JQuery高级.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day22_ajaxJson/day22_ajaxJson.iml" filepath="$PROJECT_DIR$/day22_ajaxJson/day22_ajaxJson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day23_redis/day23_redis.iml" filepath="$PROJECT_DIR$/day23_redis/day23_redis.iml" />
+    </modules>
+  </component>
+</project>

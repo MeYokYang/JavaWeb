@@ -1,0 +1,10 @@
+# Project exclude paths
+/day13_servlet/target/
+/day13_tomcat/target/
+/day14_servletHttpRequest/target/
+/day16_cookieSession/target/
+/day17_case/target/
+/day17_elJstl/target/
+/day19_filterListener/target/
+/day22_ajaxJson/target/
+/day23_redis/target/

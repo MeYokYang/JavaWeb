@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原生js实现ajax</title>
+    <script>
+        //定义方法
+        function fun(){
+            //发送异步请求
+            //1.创建核心对象
+            var xhttp;
+            if (window.XMLHttpRequest) {
+                xhttp = new XMLHttpRequest();
+            } else {
+                // code for IE6, IE5
+                xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+
+            //2.建立连接
+            /*
+                参数：
+                    1.请求方式：GET，POST
+                        get方式：请求参数在URL后拼接，send方法空参
+                        post方式：请求参数在send方法中定义
+                    2.请求的URL
+                    3.同步或异步请求，true异步，false同步
+             */
+            xhttp.open("GET", "ajaxServlet?username=Tom", true);
+
+            //3.发送请求
+            xhttp.send();
+            // xhttp.send("username=Tom");
+
+            //4.接受并处理来自服务器的响应结果
+            //获取方式：xhttp.responseText
+            //当服务器响应成功后再获取
+            //当xhttp对象的就绪状态改变时，触发事件onreadystatechange。
+            xhttp.onreadystatechange = function() {
+                //判断readyState就绪状态是否为4，判断status响应状态码是否为200
+                if (this.readyState == 4 && this.status == 200) {
+                    //获取服务器的响应结果
+                    let responseText = xhttp.responseText;
+                    alert(responseText);
+                }
+            };
+
+        }
+    </script>
+</head>
+
+<body>
+
+<input type="button" value="发送异步请求" onclick="fun();">
+
+<input>
+
+</body>
+</html>

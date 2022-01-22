@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Location对象</title>
+
+</head>
+<body>
+    <script>
+        var date = new Date();
+        document.write(date+"<br>");
+    </script>
+    <input id="Btn" type="button" value="刷新"><br>
+    <input id="goBaiDu" type="button" value="goBaidu"><br>
+    <script>
+        var btn = document.getElementById("Btn");
+        btn.onclick = function(){
+            location.reload();
+        }
+        var href = location.href;
+        document.write(href+"<br>");
+        goBaiDu.onclick = function(){
+            location.href = "https://www.baidu.com/";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="day17_elJstl:war">
+    <output-path>$PROJECT_DIR$/day17_elJstl/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>day17_elJstl</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="day17_elJstl-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="day17_elJstl:war exploded" />
+    </root>
+  </artifact>
+</component>

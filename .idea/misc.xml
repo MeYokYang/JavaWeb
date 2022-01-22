@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/day13_servlet" />
+    <file type="web" url="file://$PROJECT_DIR$/day13_tomcat" />
+    <file type="web" url="file://$PROJECT_DIR$/day14_servletHttpRequest" />
+    <file type="web" url="file://$PROJECT_DIR$/day14_test" />
+    <file type="web" url="file://$PROJECT_DIR$/day15_response" />
+    <file type="web" url="file://$PROJECT_DIR$/day16_cookieSession" />
+    <file type="web" url="file://$PROJECT_DIR$/day17_case" />
+    <file type="web" url="file://$PROJECT_DIR$/day17_elJstl" />
+    <file type="web" url="file://$PROJECT_DIR$/day19_filterListener" />
+    <file type="web" url="file://$PROJECT_DIR$/day22_ajaxJson" />
+    <file type="web" url="file://$PROJECT_DIR$/day23_redis" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/day13_tomcat/pom.xml" />
+        <option value="$PROJECT_DIR$/day13_servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/day14_servletHttpRequest/pom.xml" />
+        <option value="$PROJECT_DIR$/day14_test/pom.xml" />
+        <option value="$PROJECT_DIR$/day15_response/pom.xml" />
+        <option value="$PROJECT_DIR$/day16_cookieSession/pom.xml" />
+        <option value="$PROJECT_DIR$/day17_elJstl/pom.xml" />
+        <option value="$PROJECT_DIR$/day17_case/pom.xml" />
+        <option value="$PROJECT_DIR$/day19_filterListener/pom.xml" />
+        <option value="$PROJECT_DIR$/day22_ajaxJson/pom.xml" />
+        <option value="$PROJECT_DIR$/day23_redis/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" default="true" project-jdk-name="16" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
