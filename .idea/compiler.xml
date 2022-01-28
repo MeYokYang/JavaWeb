@@ -15,6 +15,7 @@
         <module name="day16_cookieSession" />
         <module name="day13_tomcat" />
         <module name="day17_case" />
+        <module name="travel" />
         <module name="day13_servlet" />
         <module name="day17_elJstl" />
       </profile>
@@ -31,6 +32,7 @@
       <module name="day19_filterListener" target="1.8" />
       <module name="day22_ajaxJson" target="1.8" />
       <module name="day23_redis" target="1.8" />
+      <module name="travel" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

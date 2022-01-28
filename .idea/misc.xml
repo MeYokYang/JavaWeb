@@ -12,6 +12,7 @@
     <file type="web" url="file://$PROJECT_DIR$/day19_filterListener" />
     <file type="web" url="file://$PROJECT_DIR$/day22_ajaxJson" />
     <file type="web" url="file://$PROJECT_DIR$/day23_redis" />
+    <file type="web" url="file://$PROJECT_DIR$/travel" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -27,6 +28,7 @@
         <option value="$PROJECT_DIR$/day19_filterListener/pom.xml" />
         <option value="$PROJECT_DIR$/day22_ajaxJson/pom.xml" />
         <option value="$PROJECT_DIR$/day23_redis/pom.xml" />
+        <option value="$PROJECT_DIR$/travel/pom.xml" />
       </list>
     </option>
   </component>
