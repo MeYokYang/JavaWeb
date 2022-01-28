@@ -134,7 +134,7 @@
 					if (checkUsername() && checkPassword() && checkEmail()
                         && checkName() && checkTelephone() && checkBirthday() && checkCode()){
 					    //校验通过，发送ajax请求提交表单数据
-						$.post("registerUserServlet",$(this).serialize(),function (data) {
+						$.post("user/register",$(this).serialize(),function (data) {
 						    if (data.flag){
 						        //注册成功
                                 //2. 跳转页面

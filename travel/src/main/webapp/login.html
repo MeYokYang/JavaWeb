@@ -23,7 +23,7 @@
 		//1.给按钮绑定单击事件
 		$("#btn_sub").click(function () {
 			//2.发送ajax请求提交表单
-			$.post("loginServlet",$("#loginForm").serialize(),function (data) {
+			$.post("user/login",$("#loginForm").serialize(),function (data) {
 				//3.处理响应结果
 				//data: (flag:false,errorMsg:'')
 				if (data.flag){
