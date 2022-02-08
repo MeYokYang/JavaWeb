@@ -7,10 +7,7 @@ import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-/**
- * @author Jennyism
- * @date 2019/8/2 0002 19:49
- */
+
 public class UserDaoImpl implements UserDao {
 
     private JdbcTemplate template = new JdbcTemplate(JDBCUtils.getDataSource());
@@ -22,7 +19,7 @@ public class UserDaoImpl implements UserDao {
             //1.定义sql
             String sql = "select * from tab_user where username = ?";
             //2.执行sql
-            user = template.queryForObject(sql, new BeanPropertyRowMapper<User>(User.class), username);
+            user = template.queryForObject(sql, new BeanPropertyRowMapper<>(User.class), username);
         } catch (Exception e) {
         }
 
@@ -56,7 +53,7 @@ public class UserDaoImpl implements UserDao {
         String sql = "select * from tab_user where code = ?";
         User user = null;
         try {
-            user = template.queryForObject(sql, new BeanPropertyRowMapper<User>(User.class), code);
+            user = template.queryForObject(sql, new BeanPropertyRowMapper<>(User.class), code);
         } catch (DataAccessException e) {
             e.printStackTrace();
         }
@@ -81,7 +78,7 @@ public class UserDaoImpl implements UserDao {
             //1.定义sql
             String sql = "select * from tab_user where username = ? and password = ?";
             //2.执行sql
-            user = template.queryForObject(sql, new BeanPropertyRowMapper<User>(User.class), username, password);
+            user = template.queryForObject(sql, new BeanPropertyRowMapper<>(User.class), username, password);
         } catch (Exception e) {
         }
 

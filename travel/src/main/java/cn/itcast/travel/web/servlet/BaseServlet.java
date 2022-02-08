@@ -35,7 +35,7 @@ public class BaseServlet extends HttpServlet {
         mapper.writeValue(response.getOutputStream(), obj);
     }
 
-    public String writeValueAsStream(Object obj, HttpServletResponse response) throws JsonProcessingException {
+    public String writeValueAsStream(Object obj) throws JsonProcessingException {
         ObjectMapper mapper = new ObjectMapper();
         return mapper.writeValueAsString(obj);
     }

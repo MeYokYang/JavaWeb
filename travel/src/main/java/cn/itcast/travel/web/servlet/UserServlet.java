@@ -35,10 +35,10 @@ public class UserServlet extends BaseServlet {
             ResultInfo info = new ResultInfo();
             info.setFlag(false);
             info.setErrorMsg("验证码错误！");
-            ObjectMapper mapper = new ObjectMapper();
-            String json = mapper.writeValueAsString(info);
+            String json = writeValueAsStream(info);
             response.setContentType("application/json;charset=UTF-8");
             response.getWriter().write(json);
+
             return;
         }
 
@@ -117,7 +117,6 @@ public class UserServlet extends BaseServlet {
     public void findOne(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //从session中获取登录用户
         Object user = request.getSession().getAttribute("user");
-        System.out.println(user);
         //将session写回客户端
         writeValue(user, response);
     }
